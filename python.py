@@ -7,10 +7,10 @@ import datetime
 sheet_name = 'building'  
 out_path = 'one.xls'
 # 注意把password设为你的root口令:
-conn = mysql.connector.connect(user='root',
-    password='root',
-    host='39.105.137.34',
-    database='laravel')
+conn = mysql.connector.connect(user='',
+    password='',
+    host='',
+    database='')
 cursor = conn.cursor()
 cursor.execute('select * from users where id =1')
 # cursor.scroll(0,mode='absolute')  
